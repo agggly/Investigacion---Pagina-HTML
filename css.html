@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicación de CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Explicación de CSS</h1>
+    <p>Aquí aprenderemos sobre **CSS**, que nos ayuda a que las páginas web se vean bonitas. Piensa en CSS como la "ropa" de tu página HTML.</p>
+
+    <h2 class="subtitle link-explanation">&lt;link rel="stylesheet" href="style.css"&gt;</h2>
+    <p>Con esta línea en la sección <code>&lt;head&gt;</code>, le decimos a HTML que use los estilos de un archivo llamado <code>style.css</code>. Así, HTML sabe dónde encontrar su "ropa".</p>
+
+    <h2 class="subtitle body-explanation">`body {}`</h2>
+    <p>El selector **`body`** aplica estilos a **toda la parte visible** de tu página web. Como puedes ver, esta página tiene un color de fondo suave y un tipo de letra básico gracias a estos estilos.</p>
+
+    <h2 class="subtitle font-family-explanation">`font-family`</h2>
+    <p>Esta propiedad decide el **tipo de letra** de tu texto. Mira este subtítulo; ¡tiene una fuente diferente para mostrarte el efecto!</p>
+
+    <h2 class="subtitle margin-padding-explanation">`margin` y `padding`</h2>
+    <div class="box-example">
+        <div class="box-content">
+            Este es un cuadro
+        </div>
+    </div>
+    <p>Piensa en tus elementos HTML como cajas. El **`padding`** es el espacio *dentro* de la caja (entre el texto y el borde), y el **`margin`** es el espacio *fuera* de la caja (entre esta caja y otras cajas). Mira el cuadro de ejemplo para entenderlo mejor.</p>
+
+    <h2 class="subtitle background-color-explanation">`background-color`</h2>
+    <p>Con esta propiedad, puedes ponerle un **color de fondo** a cualquier parte de tu página. Este subtítulo tiene un color de fondo ligero para que veas cómo funciona.</p>
+
+    <h2 class="subtitle color-explanation">`color`</h2>
+    <p>Esta es simple: **`color`** cambia el **color del texto**. Mira el texto de este subtítulo, ¡es de un color llamativo!</p>
+
+    <h2 class="subtitle font-size-explanation">`font-size`</h2>
+    <p>¿Quieres que tu texto sea grande o pequeño? Usa **`font-size`** para cambiar el **tamaño de la letra**. Este subtítulo es un buen ejemplo, ¡es más grande de lo normal!</p>
+
+    <h2 class="subtitle position-explanation">`position: relative;`</h2>
+    <p>Esto es un poco más avanzado, pero **`position: relative;`** nos ayuda a que otros elementos (como los pequeños cuadros de información que aparecen al pasar el mouse) puedan "moverse" en relación con este elemento. Así, el pequeño cuadro blanco siempre aparecerá justo debajo del título al que pertenece.</p>
+
+    <h2 class="subtitle after-explanation">`::after`</h2>
+    <p>El **`::after`** es como añadir algo extra *después* del contenido de un elemento, sin tener que escribirlo en el HTML. Lo usamos aquí para mostrarte la información de color y fuente al pasar el mouse.</p>
+
+    <h2 class="subtitle content-explanation">`content`</h2>
+    <p>Esta propiedad se usa junto con **`::after`** para decirle qué texto o contenido debe mostrar. Es lo que hace que aparezca el "Color: #..." en los pequeños cuadros al pasar el mouse.</p>
+
+    <h2 class="subtitle opacity-explanation">`opacity`</h2>
+    <p>Con **`opacity`**, puedes hacer que algo sea más o menos **transparente**. Un valor de 0 es completamente invisible y 1 es totalmente sólido. Este subtítulo es un poco transparente para que lo notes.</p>
+
+    <h2 class="subtitle transition-explanation">`transition`</h2>
+    <p>**`transition`** hace que los cambios en los estilos (como la aparición del pequeño cuadro de información) sean **suaves y animados**, en lugar de aparecer de golpe. Intenta pasar el mouse sobre los títulos para ver cómo la información aparece suavemente.</p>
+
+    <footer class="footer">
+        Este es un pie de página estilizado con CSS.
+    </footer>
+
+    <a href="index.html">Volver a inicio</a>
+    <a href="css_context.html">Ver en contexto CSS</a>
+</body>
+</html>
